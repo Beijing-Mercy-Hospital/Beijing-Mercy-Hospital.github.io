@@ -1,0 +1,24 @@
+/*一些元素修饰*/
+/*居中*/
+.center
+{
+	text-align:center;
+}
+/*首页图片*/
+.hpnews
+{
+	border:1px solid red;
+	border-radius:1%;
+}
+/*圆形图片*/
+.circle
+{
+	border:1px solid blue;
+	border-radius:75%;
+}
+/*按钮*/
+.button
+{border-radius:5%;}
+/*缩小字体*/
+.small
+{font-size:10px;color:#A0A0A0;}

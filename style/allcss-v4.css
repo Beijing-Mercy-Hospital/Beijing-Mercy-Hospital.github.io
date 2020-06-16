@@ -1,0 +1,85 @@
+/*此样式表适用于全站。且为低级设置。*/
+/*底层背景*/
+body
+{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-style:none;
+	outline-style:none;
+	padding-left:0em;
+	padding-right:0em;
+	padding-bottom:0em;
+	padding-top:0em;
+	background-color:rgb(232,232,232)/*#000000*/;
+	color:white;
+}
+div
+{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-style:none;
+	outline-style:none;
+	padding-left:0em;
+	padding-right:0em;
+	padding-bottom:0em;
+	padding-top:0em;
+}
+/*普通段落*/
+p
+{
+	line-height:120%;
+	text-decoration:none;
+	text-indent:25px;
+	color:white;
+}
+/*粗体*/
+strong
+{
+	line-height:120%;
+	text-indent:25px;
+	color:white;
+}
+/*链接*/
+a
+{
+	text-decoration:none;
+}
+a:link
+{
+	color:#3399FF;
+}
+a:visited
+{
+	color:#3399FF;
+}
+a:hover
+{
+	color:#FFFFFF;
+}
+a:active
+{
+	color:#FFFFFF;
+}
+h1
+{
+	text-align:center;
+	color:white;
+}
+h2,h3
+{
+	 color:white;
+}
+code
+{
+	font-family:Consolas,Courier;
+}
+pre
+{
+	background-color:rgba(0,0,0,.70);
+	font-family:Consolas,Courier;
+	color:white;
+}

@@ -1,0 +1,151 @@
+/*一些div定义*/
+/*头*/
+#header
+{
+	padding-bottom:1em;
+	padding-top:1em;
+	background-image:url('../img/!header-bird.png');
+	/*422地球日：background-image:url('../img/!earth.jpeg');*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align:center;
+	color:blue;
+	/*422地球日：color:white;*/
+}
+/*logo*/
+.logo
+{
+	font-family:Consolas,"Courier New",Courier;
+}
+/*并排*/
+.line
+{
+	display:flex;
+	justify-content:center;
+
+}
+/*删除线*/
+.S
+{
+	text-decoration:line-through LightSlateGray;
+}
+/*logo下面的副标题*/
+/*中文*/
+.sentence-chn
+{
+	font-family:楷体,微软雅黑,黑体;
+	font-size:17px;
+}
+/*英文*/
+.sentence-eng
+{
+	font-family:Consolas,"Courier New",Courier;
+	font-size:17px;
+}
+/*目录*/
+#menu
+{
+	position: sticky;
+	top: 0;
+	padding-top:8px;
+	padding-bottom:40px;
+	background-color:#006633;
+	font-size:20px;
+	/****3.1.11 2020-04-21更新*/
+	padding-left:15px;
+	padding-right:15px;
+	/****结束*/
+}
+/*首页图集*/
+#picnews
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+/*主div*/
+#main
+{
+	width:75%;
+	margin:none;
+}
+/*右侧边栏*/
+#side
+{
+	width:25%;
+}
+/*OI 周报*/
+#OInews
+{
+	text-align:center;padding:10px;background-color:white;margin:10px;border-radius:1%;
+}
+/*主页侧边栏*/
+.rightdiv
+{
+	text-align:center;background-color:white;margin:10px;padding:10px;border-radius:1%;
+}
+/*最新博文 & 最新动态 & 博文*/
+#blog
+{
+	padding:10px;background-color:white;margin:10px;border-radius:1%;
+}
+/*脚部*/
+#footer
+{
+	text-align:center;background-color:rgb(32,32,32);height:60px;
+}
+/*左侧边栏列表*/
+#divlist
+{
+	margin:10px;
+	border-radius:0.5%;
+	border:4px solid #006633;
+}
+/*列表中的每一项*/
+.item
+{
+	background-color:#F0FFF0;
+	border-bottom:1px solid black;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:3px;
+	color:black;
+}
+/*中间的每一项*/
+.mainitem
+{
+	margin:5px;
+	background-color:black;
+	color:white;
+	width:25%;
+	border:3px solid #006633;
+	text-align:center;
+}
+/*没有radius的blog*/
+#blogWithNoRadius
+{
+	padding:10px;background-color:white;margin:10px;
+}
+/*OInews中的picture*/
+.oiNewsPic
+{
+	width:100%;
+}
+/*左浮动*/
+.floatLeft
+{
+	float:left;
+}
+/*右浮动*/
+.floatRight
+{
+	float:right;
+}
+/*主页通知栏*/
+#notice
+{
+	background-color:#303030;
+	color:white;
+	border-radius:.5rem;
+	text-align:center;
+	padding:10px;
+}
