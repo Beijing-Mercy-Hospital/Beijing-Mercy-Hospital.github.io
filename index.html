@@ -14,56 +14,7 @@
 	<!-- font-awesome 图标库-->
 	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 	<!-- -->
-	<script>
-		function showSentence ()
-		{
-			var sent = new Array()
-			sent[0] = "千夫之诺诺，不如一士之谔谔。——《史记·商君列传第八》"
-			sent[1] = "但你出言不逊是！——@语文王子"
-			sent[2] = "stO frost_walker"
-			sent[3] = "stO 屏幕前的大巨佬"
-			sent[5] = "这里我把红黑树简写为RB（当然是Red and Blue）——@向北方"
-			sent[6] = "如果你封了我，会让全天下的oiers知道，洛谷管理员的腐朽！！！洛谷将会臭名昭著！——@Unknown_Error"
-			sent[7] = "不出 10 分钟必能 AC"
-			sent[8] = "今天的 AKer 必然是你"
-			sent[9] = "出现 2147483648"
-			sent[10] = "虐全场"
-			//sent[4] = "gmq"
-			//sent[5] = "观猴"
-			//sent[6] = "考古"
-			sent[11] = "5k 代码毫无 bug"
-			sent[4] = "我是蒟蒻！"
-			sent[12] = "被无数人 star"
-			sent[13] = "被人追着 %"
-			//sent[8] = "我太弱了"
-			//sent[9] = "你 AK 了 CSP"
-			var good = new Array()
-			good[0] = "谔谔"
-			good[1] = "出言不逊"
-			good[2] = "膜拜"
-			good[3] = "切题"
-			good[4] = "吊打"
-			good[5] = "看神贴"
-			good[6] = "考古"
-			good[7] = "调试"
-			good[8] = "打比赛"
-			good[9] = "玩2048"
-			good[10] = "玩 diep.io"
-			good[11] = "开发"
-			good[12] = "上 Github"
-			good[13] = "水犇犇"
-			var num = Math.floor( Math.random() * 14)
-			var rp = Math.floor( Math.random() * 101)
-			document.getElementById("sentence").innerHTML = sent[num]
-			document.getElementById("good").innerHTML = good[num]
-			document.getElementById("rp").innerHTML = rp
-		}
-		function addPrefixZero(num, n) 
-		{
-             return (Array(n).join(0) + num).slice(-n);
-		}
-
-	</script>
+	
 </head>
 <body>
 	<div id="container" style="font-family:微软雅黑">
@@ -112,6 +63,19 @@
 	<div id="blog">
 		<h2 class="center"><i class="fa fa-calendar-o"></i>&nbsp;最新动态</h2>
 		</div>
+	<a href="./blog/article/仁慈医院建立/index.html">
+		<div class="blogItem">
+		<span class="h">「置顶」仁慈医院建立了！</span>
+		<br/>
+		<br/>
+						<small><i class="fa fa-angle-double-up"></i> <i class="fa fa-tag"></i> 测试&nbsp;&nbsp;<i class="fa fa-book"></i> 新闻&nbsp;&nbsp;<i class="fa fa-clock-o"></i> 2020-06-18 13:02&nbsp;&nbsp;<i class="fa fa-check-square-o"></i> 2020-06-18 13:02&nbsp;&nbsp;
+		<br/>
+		<br/>
+		<span>快来看看新版博客长什么样吧！</span>
+		</div>
+		</a>
+		</div>
+	
 	<div id="blog">
 		<h2 class="center"><i class="fa fa-newspaper-o"></i>&nbsp;我院风采</h2>
 		</div>
@@ -126,64 +90,13 @@
 			<i class="fa fa-envelope-o"></i> 
 			</div>
 		</div>
-		<!--<div class="rightdiv">
-			<h2><i class="fa fa-calendar-check-o"></i>&nbsp;打卡区</h2>
-			<div style="font-size:17px;">
-				今日我前方巨佬的 RP：<strong id="rp">你不打卡我肿么告诉你 QaQ</strong>
-			</div>
-			<br/>
-			<div style="font-size:17px;color:#33FF00;">
-				宜：<strong id="good" style="color:whites">快打卡！</strong>
-			</div>
-			<br/>
-			<div id="sentence" style="font-size:15px;">
-				<script>
-				var nowDate = new Date()
-				var s = ""
-				var day = new Array()
-				day[1] = "一"
-				day[2] = "二"
-				day[3] = "三"
-				day[4] = "四"
-				day[5] = "五"
-				day[6] = "六"
-				day[0] = "日"/*5.18 v4.4.1 Fix bug*/
-				s = s + nowDate.getFullYear().toString() + "年" + (nowDate.getMonth()+1).toString() + "月" + nowDate.getDate().toString() + "日 "
-				s = s + addPrefixZero(nowDate.getHours(), 2).toString() + ":" + addPrefixZero(nowDate.getMinutes(), 2).toString() + ":" + addPrefixZero(nowDate.getSeconds(), 2).toString()
-				s = s + "，星期" + day[nowDate.getDay()]
-				document.write("现在是<br/><strong>" + s + "</strong>")
-				</script>
-			</div>
-			<br/>
-			<div style="font-size:17px;">
-				听说一天之内重复打卡 RP 会变成 2<sup>64</sup> + 1 哦~
-			</div>
-			<br/>
-			<button type="button" onclick="showSentence()" class="button" style="width:100px;height:33px;background-color:#FF9933;border:1px solid #FF9933;">点击打卡！</button>
-			<br/>
-			<pre class="small">以上信息仅供娱乐！</pre>
-		</div>-->
-		<!--<div class="rightdiv">
-			<h2><i class="fa fa-link"></i>&nbsp;友链</h2>
-			<a href="https://gmq12.github.io">frost_walker6</a> | Luogu@<a href="https://www.luogu.com.cn/user/132929">frost_walker</a> | Github@<a href="https://github.com/gmq12">gmq12</a>
-			<br/>
-			<br/>
-			Luogu@<a href="https://www.luogu.com.cn/user/131109">robin_gao</a> | Codeforces@<a href="https://codeforces.com/profile/grobcj">grobcj</a>
-			<br/>
-			<br/>
-			Github@<a href="https://github.com/a-stranger-from-outerspace">A-stranger-from-outerspace</a> | Luogu@<a href="https://www.luogu.com.cn/user/130724">来自外WTK的路人</a> | Bilibili@<a href="https://space.bilibili.com/416540337">来自外太空的路人</a> | LiberOj@<a href ="https://loj.ac/user/19322">A_stranger_from_outerspace</a>
-			<br/>
-			<br/>
-			<a href="https://www.xiaozhi.xin">小智编程</a>
-			<br/>
-			<br/>
-		</div>-->
+		<!--
 		<div class="rightdiv">
 			<h2><i class="fa fa-star"></i>&nbsp;光荣榜</h2>
 			<br/>
 			<br/>
 		</div>
-		<!--upd 0323 今日更新至此-->
+		upd 0323 今日更新至此-->
 	</div>
 	</div>
 	
@@ -194,17 +107,3 @@
 	</div>
 </body>
 </html>
-	
-	
-	<!--<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>北京仁慈医院官方网站！</title>
-</head>
-<body>
-  <div>测试</div>
-  <h1>这是一个梗， 请不要滥用它</h1>
-  <strong>王院长温馨提示</strong>
-</body>
-</html>-->
